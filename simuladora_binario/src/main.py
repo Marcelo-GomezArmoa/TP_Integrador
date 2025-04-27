@@ -1,6 +1,6 @@
-from logica import sumador_completo # importar función de sumador completo
+# from logica import sumador_completo # importar función de sumador completo
 from binario import decimal_a_binario, binario_a_decimal # importar funciones de conversión entre decimal y binario
-from logica import sumador_completo # importar función de sumador completo
+from logica import sumador_completo # importar función de sumador completocomo
 
 def sumar_n_bits(a_dec, b_dec, bits=4): # función para sumar dos números decimales
     a_bits = decimal_a_binario(a_dec, bits) 
